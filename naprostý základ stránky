@@ -9,22 +9,22 @@ napsat <!DOCTYPE html> a melo by to fungovat-->
 <!--head je cast, ktera neni videt, ale vkladame do ni informace o dokumentu + nadpis, ktery se zobrazi
 v prohlizeci nahore na karte-->
         <title>nadpis karty</title>
-<!---title je ten atributm ktery vam umozni nejak nazvat kartu v 
+<!---title je ten tag, ktery vam umozni nejak nazvat kartu v 
 prohlizeci (popsano výš)-->
         <link rel="stylesheet" type="text/css" href="neco.css">
-<!---atribut link obsahuje nekolik, rekneme atributu, ktere je potreba vyplnit...
+<!---tag link obsahuje nekolik atributu, ktere je potreba vyplnit...
 v podstate ale ani nemusite vyplnovat, staci napsat to, co jsem napsala ja.
 Ktery ale vyplnit musite je "href" ktery slouzi k navigaci k css souboru. Doporucuji mit
-ve stejne slozce, pokud ale mate soubor v nejake dalsi slozce, zkopirujte cestu k souboru a tu do
+ve stejne slozce, pokud ale mate soubor v nejake dalsi slozce, napiste nazev podsložky a oddělte \ a tu do
 atributu "href" vlozte.-->
         <meta charset="UTF-8">
-<!--<meta> je atribut, který nutně ani nemusíte vkládat, ale pokud ho vložit chcete, napište
+<!--<meta> je tag, který nutně ani nemusíte vkládat, ale pokud ho vložit chcete, napište
 do něj to, co jsem napsala já, nehledejte v tom nějakou vědu, mělo by to fungovat-->
     </head>
     <body>
-<!--atribut <body> označuje začátek a konec obsahu stránky... Na začátku se píše za </head> a na konci před </html>-->
+<!--tag <body> označuje začátek a konec obsahu stránky... Na začátku se píše za </head> a na konci před </html>-->
 <h1>TOTO JE NADPIS</h1>
-<!-- html obsahuje atributy pro nadpisy,
+<!-- html obsahuje tagy pro nadpisy,
 H1 až H6 a podle čísla se odvíjí velikost textu 
 (h1 nejvetsi text, h6 nejmensi text,
  z praxe vim, ze vetsina z vas vyuzije maximalne h1 az h3

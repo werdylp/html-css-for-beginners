@@ -19,7 +19,8 @@ ve stejne slozce, pokud ale mate soubor v nejake dalsi slozce, napiste nazev pod
 atributu "href" vlozte.-->
         <meta charset="UTF-8">
 <!--<meta> je tag, který nutně ani nemusíte vkládat, ale pokud ho vložit chcete, napište
-do něj to, co jsem napsala já, nehledejte v tom nějakou vědu, mělo by to fungovat-->
+do něj to, co jsem napsala já, nehledejte v tom nějakou vědu, mělo by to fungovat. Meta se nezobrazuje a slouži třeba k vytvoření serponzivního
+webu (web, zobrazujici se na telefonu i na počítači jinak a prostě se to formuje podle zařízení.)-->
     </head>
     <body>
 <!--tag <body> označuje začátek a konec obsahu stránky... Na začátku se píše za </head> a na konci před </html>-->

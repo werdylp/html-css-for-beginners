@@ -1,0 +1,17 @@
+/*
+    Základní syntax CSS je:
+    značka{
+        styl
+    }
+
+    místo značka můžete použít ID (#značka) nebo class (.značka), v podstatě mezi nimi není žádný velký rozdíl
+*/
+
+body{
+    background-color: black; /* nastaví barvu pozadí */
+    background-size: cover; /* nastaví velikost pozadí na "cover", tj. pokrytí celého pozadí */
+}
+
+.zluty{
+    color:#fffb00; /* nastaví barvu textu, lze používat základní barvy (yellow, blue, red apod.), HEX (#fff, #ff000f) nebo RGB ( rgb(255, 251, 0) )*/
+}

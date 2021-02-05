@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--- <!DOCTYPE html> pomaha prohlizeci, jak ma zobrazit text,
+pise se pokazde, drive bylo treba upresnovat, vam staci
+napsat <!DOCTYPE html> a melo by to fungovat-->
+<html>
+<!---tag <html> se pise na zacatek za doctype a na uplny konec kodu, 
+    kod v podstate ohranicuje-->
+<head>
+    <!--head je cast, ktera neni videt, ale vkladame do ni informace o dokumentu + nadpis, ktery se zobrazi
+v prohlizeci nahore na karte-->
+    <title>nadpis karty</title>
+    <!---title je ten tag, ktery vam umozni nejak nazvat kartu v 
+prohlizeci (popsano výš)-->
+    <link rel="stylesheet" type="text/css" href="./styl.css">
+    <!---tag link obsahuje nekolik atributu, ktere je potreba vyplnit...
+    vyuziva se hlavne na vytvoreni odkazu ("linku") k CSS souboru
+Dulezite je vyplnit atribut "href", ktery slouzi k navigaci k css souboru. Je jedno kam CSS soubor dáte, ale je nejlepší ho mít ve stejné složce, nebo v blízké podsložce.
+V našem příkladu `.` označuje složku, ve které se nachází tento HTML soubor. K souboru se naviguje pomocí `/` nebo `\`. Pokud chcete začít o složku výš, lze použít `..` místo `.`-->
+    <meta charset="UTF-8">
+    <!--<meta> umožňuje vložit "meta" údaje, které se například používají pro SEO (search engine optimization) apod.
+    V tomto případě nastavujeme používanou znakovou sadu na UTF-8, bez tohoto meta tagu by se znaky jako "ž" "ě" apod. zobrazovali jako prázdně čtverečky nebo jiné divné znaky.
+-->
+</head>
+
+<body>
+    <!--tag <body> označuje začátek a konec obsahu stránky, tj. tělo (body) Na začátku se píše za </head> a na konci před </html>-->
+    <h1>TOTO JE NADPIS</h1>
+    <!-- html obsahuje tagy pro nadpisy,
+H1 až H6 a podle čísla se odvíjí velikost textu 
+(h1 nejvetsi text, h6 nejmensi text,
+ z praxe vim, ze vetsina z vas vyuzije maximalne h1 az h3
+protoze si text vestinou upravite podle potreby v css)-->
+
+    <p>toto je paragraf a je bílý</p>
+    <!---paragraph slouzi k zadani textu na stranku, jednoduse obsah stranky-->
+    <a href="https://github.com/werdylp">odkaz na muj github</a>
+    <!--atribut <a> (zkráceně pro "anchor") slouží k tomu, aby jste mohli vytvořit text, na který
+když kliknete, dostanete se na požadovaný odkaz. Je možné ho taky využít jako
+paragraph, ale je to zbytečné. Odkaz vložite za atribut "href"-->
+    <p class="zluty">Tento paragraf je žlutý, protože má nastavený class "zluty"</p>
+</body>
+
+</html>
+<!-- pokud si chcete jednoduše vytvořit pěknou předlohu pro vaši HTML stránku, můžete použít http://htmlshell.com-->

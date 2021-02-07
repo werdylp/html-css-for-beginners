@@ -1,0 +1,26 @@
+hlavní, co potřebujete vědět je, že web
+z pravidla není jen jeden dokument, ale jsou to, většinou alespoň tři, 
+na sebe navazující dokumenty. 
+
+------------------------------------------------
+
+dokument, ve kterém toho bude pravděpodobně nejvíc, bude obsahovat veškerý text
+zobrazující se na stránce:
+
+HTML
+
+------------------------------------------------
+
+dokument, který bude udávat, jakou barvou, velikostí a zkrátka způsobem se stránka zobrazí:
+
+CSS
+
+------------------------------------------------
+
+dokument, který řídí, co se na stránce stane, můžeme programovat vyskakovací okna a webové aplikace:
+
+JavaScript
+
+------------------------------------------------
+
+CSS a HTML jsou značkovací jazyky, což znamená, že zde ještě neprogramujete, narozdíl od JavaScriptu.
